@@ -43,7 +43,7 @@ const Skills = () => {
         </p>
         <div className="details text-xl sm:text-xl leading-[80%] font-semibold w-full max-w-4xl px-10 mb-5 sm:mb-7 mx-auto">
           HTML &nbsp; &nbsp;&nbsp; CSS &nbsp; &nbsp;&nbsp; JavaScript &nbsp;
-          &nbsp;&nbsp; ReactJS &nbsp; &nbsp;&nbsp; Tailwind CSS &nbsp;
+          &nbsp;&nbsp; ReactJS &nbsp;    Tailwind CSS &nbsp;
           &nbsp;&nbsp; Redux{" "}
         </div>
         <div className="h-[1px] mb-5 w-full relative">

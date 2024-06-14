@@ -72,7 +72,7 @@
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
   margin: 0;
   padding-bottom: 15px;
   margin-top: -20px;
@@ -128,4 +128,14 @@
 .button:hover {
   background-color: wheat;
   color: black;
+}
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+  .social-icons {
+    
+    margin-top: -12px;
+    color: rgb(235, 89, 57);
+  }
 }

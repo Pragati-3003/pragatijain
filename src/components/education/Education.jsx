@@ -3,7 +3,7 @@ import './education.css';
 
 const Education = () => {
   return (
-    <section id="what-i-do" className="bg-wheat flex flex-col justify-center min-h-svh">
+    <section id="what-i-do" className="bg-wheat flex flex-col justify-center min-h-screen">
       <h3 className="title w-full text-2xl tracking-[0.6rem] max-w-4xl px-10 mx-auto mb-7">
         Education
       </h3>
@@ -39,7 +39,7 @@ const Education = () => {
         </p>
         <div className="details text-xl sm:text-xl leading-[80%] font-semibold w-full max-w-4xl px-10 mb-5 sm:mb-7 mx-auto">
           Banasthali Vidyapith (2020-2021) <br></br>
-           97% (Gold Medalist)
+          97% (Gold Medalist)
         </div>
         <div className="h-[1px] mb-5 w-full relative">
           <div className="h-10 w-full relative -top-5 z-[1] hover:h-[500px] hover:-top-[250px]"></div>

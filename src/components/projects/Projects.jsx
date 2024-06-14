@@ -3,9 +3,10 @@ import "./projects.css";
 import unifiedblood from "../../assets/unifiedblood.png";
 import bvsynergy from "../../assets/bvsynergy.png";
 import Ecommerce from "../../assets/Ecommerce.png";
+
 const testimonials = [
   {
-    info: " A comprehensive community platform fostering seamless communication and collaboration among students, mentors, alumni, and teachers at Banasthali Vidyapith",
+    info: "A comprehensive community platform fostering seamless communication and collaboration among students, mentors, alumni, and teachers at Banasthali Vidyapith",
     name: "BV SYNERGY",
     title: "Community Platform for the Banasthali Vidyapith",
     url: "https://github.com/Pragati-3003/BV__SYNERGY",
@@ -21,7 +22,6 @@ const testimonials = [
   {
     info: "Developed an engaging e-commerce website with React, Strapi, and Redux Toolkit, implementing dynamic product cart functionality and advanced filtering capabilities through custom hooks for an enhanced user experience.",
     name: "E-commerce Website",
-    // title: "Project Manager",
     url: "https://github.com/Pragati-3003/Ecommerce",
     image: Ecommerce,
   },
@@ -30,19 +30,17 @@ const testimonials = [
 const TestimonialItem = ({ testimonial, isVisible }) => (
   <div className={`testimonial-item ${isVisible ? "visible" : ""}`}>
     <div className="testimonial-quote">
-      {/* <span className="quote-icon" >“</span> */}
       <p className="quote">
-        {" "}
         <p className="quote-icon" style={{ marginBottom: "-50px" }}>
           “
-        </p>{" "}
+        </p>
         {testimonial.info}
       </p>
     </div>
     <div className="testimonial-author">
       <h3>{testimonial.name}</h3>
       <p>{testimonial.title}</p>
-      <a style={{ marginTop: "5px" }} href={testimonial.url}>
+      <a className="moreprojects"  href={testimonial.url}>
         Github Repo
       </a>
     </div>
@@ -63,7 +61,7 @@ const Projects = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setVisibleIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
-    }, 3000); // Change slide every 3 seconds
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
@@ -74,7 +72,7 @@ const Projects = () => {
 
   return (
     <>
-      <div  id="work" className="testimonial-container">
+      <div id="work" className="testimonial-container">
         <h2 className="testimonial-title">WHAT I BUILT</h2>
         <div className="testimonial-content">
           {testimonials.map((testimonial, index) => (
@@ -97,7 +95,7 @@ const Projects = () => {
             <img
               key={index}
               src={testimonial.image}
-              alt={testimonial.author}
+              alt={testimonial.name}
               className={index === visibleIndex ? "active" : ""}
               onClick={() => handleNavClick(index)}
             />
