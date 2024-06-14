@@ -1,0 +1,82 @@
+.about{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #0d0c0c;
+    position: relative;
+    /* top: 100vh; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.about-me{
+    color: wheat;
+}
+.container_content {
+    padding-left: 5.25rem;
+    padding-right: 1.25rem;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* font-weight: 100; */
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.body-text, .sub-content {
+    font-size: .75rem;
+    line-height:180%;
+}
+.body-text {
+    letter-spacing: .5em;
+    margin-bottom: 1.875rem;
+    font-size: 16px;
+    color: wheat;
+}
+.body-text, .display, .h1, .h2, .h3, .h4, .h6, h1, h2, h3, h4, h6 {
+    display: block;
+    /* font-family: Avant Garde, sans-serif; */
+    font-style: normal;
+    /* font-weight:0; */
+}
+
+
+
+
+.h2, h2 {
+    font-size: 3.0rem;
+    letter-spacing: -.05em;
+    line-height: 100%;
+}
+
+.scroll-paragraph-mask.is-masking {
+    --size: 100%;
+    position: relative;
+    z-index: 2;
+}
+@media (max-width: 1405px)
+    {
+        .h2, h2 {
+            font-size: 2.7rem;
+        }
+    }
+@media (max-width: 1200px)
+    {
+        .h2, h2 {
+            font-size: 2rem;
+        }
+    }
+    @media (max-width: 980px)
+    {
+        .h2, h2 {
+            font-size: 2.3rem;
+        }
+    }
+    @media (max-width: 536px)
+    {
+        .h2, h2 {
+            font-size: 2.1rem;
+        }
+    }

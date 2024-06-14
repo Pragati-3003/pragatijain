@@ -1,0 +1,50 @@
+h3{
+    color:#b0a999;
+}
+#what-i-do{
+    background-image: url(../../assets/b2.png);
+    background-size: cover;
+   color:"#b0a999"
+}
+
+  .title {
+    color: #b0a999;
+  }
+  
+  .content {
+    position: relative;
+    color: #b0a999;
+    transition: all 0.5s ease;
+  }
+  
+  .hover-overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  rgb(235, 89, 57);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 1;
+  }
+  
+  .hover-overlay:hover::after {
+    opacity: 0;
+    zoom: 1;
+    
+  }
+  
+  .degree, .details {
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s ease;
+  }
+  
+  .hover-overlay:hover .degree, .hover-overlay:hover .details {
+    color: wheat;
+    
+  }
+  
+
