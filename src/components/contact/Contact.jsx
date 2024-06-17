@@ -35,7 +35,7 @@ function Contact() {
           </div>
           <div className="text-container">
             <p className="title">Resume</p>
-            <p className="description"><a href="https://drive.google.com/file/d/1yV0o7beiHzFK8yRS77KL5rtN4qM1tVEB/view?usp=sharing">Click Here</a></p>
+            <p className="description"><a href="https://drive.google.com/file/d/1yNsue05ZsoWQGWiR2cwZWGMJWfoON0wB/view?usp=sharing">Click Here</a></p>
           </div>
         </div>
         <div className="card">

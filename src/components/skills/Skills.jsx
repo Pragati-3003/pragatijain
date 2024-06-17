@@ -63,6 +63,15 @@ const Skills = () => {
         <div className="details text-xl sm:text-xl leading-[80%] font-semibold w-full max-w-4xl px-10 mb-5 sm:mb-7 mx-auto">
           NodeJS &nbsp; &nbsp;&nbsp; ExpressJS &nbsp; &nbsp;&nbsp; MongoDB
         </div>
+        <div className="h-[1px] mb-5 w-full relative">
+          <div className="h-10 w-full relative -top-5 z-[1] hover:h-[500px] hover:-top-[250px]"></div>
+          <svg className="w-full h-[500px] absolute -top-[250px]">
+            <path
+              className="stroke-slate-700 stroke-1 fill-none"
+              d="M0 250 Q826 250.43364538220777, 1536 250"
+            ></path>
+          </svg>
+        </div>
       </div>
       <div className="content pt-3 sm:pt-5 hover-overlay">
         <p className="degree text-2xl sm:text-4xl leading-[80%] font-semibold w-full max-w-4xl px-10 mb-5 sm:mb-7 mx-auto">
